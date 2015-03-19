@@ -1,0 +1,1 @@
+curl -XPUT 'http://localhost:9200/myindex/mytype/1' -d '{"Name":"Some name","id":"1234567","Date":"2010-03-30T00:00:00","Location":"Leiden","LocationGeo": "52.1601140,4.4970100","Country":"The Netherlands","CountryCode":"NL"}'
